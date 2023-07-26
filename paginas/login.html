@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../assets/icons/camiseta.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bcacbfb976.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Portland Ropa</title>
+  </head>
+
+  <body>
+    <!--HTML Semántico-->
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../assets/logo.jpg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white fuente-principal" aria-current="page" href="../paginas/productos.html">Productos</a>
+              </li>
+              <li class="nav-item carrito">
+                <a class="nav-link active text-white" aria-current="page" href="../paginas/carrito.html">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="../paginas/login.html">
+                  <i class="fa-solid fa-circle-user"></i>
+                </a>
+              </li>
+        
+            </ul>
+             
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 fuente-principal" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-info fuente-principal" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+  </header>
+  
+  <h1 class="fuente-principal register-carrito-login">LOG-IN</h1>
+  <!--Lista Ordenada-->
+  
+  
+    <main>
+      <form action="procesar.php" method="post">
+      
+        <!--Input Nombre-->
+       
+        <div>
+          <!--Input email-->
+          <label class="fuente-principal login" for="email">Correo Electrónico:</label>
+          <input class="login-input" type="email" name="email" placeholder="hola@servidor.com">
+        </div>
+        <br>
+        <div>
+          <!--Input pass-->
+          <label class="fuente-principal login" for="pass">Contraseña:</label>
+          <input class="login-input" type="password" name="pass" required placeholder="********">
+        </div>
+        <br>
+        <br>
+  
+        <a class="nav-lis" href="./register.html">
+          <p class="fuente-principal ver-todo login-boton"> O REGISTRATE!</p>
+      </a>
+    </main>
+  
+  
+    <div class="video">
+  
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2bh3__d9ewk"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+    </div>
+         </main>
+         <br>
+         <br>
+         <footer>
+          <br>
+          <div class="footer-text fuente-principal">
+          <p> Desarrollado por portland 2023</p>
+        </div>
+           <div class="redes">
+            <a  class= "fb" href="https://www.facebook.com/portlandskate">
+             <i class="fa-brands fa-facebook fb"  style="color: aliceblue;"></i>
+            </a>
+            <a class= "ig" href="https://www.instagram.com/portlandskate/">
+           <i class="fa-brands fa-instagram ig" style="color: aliceblue;"></i>
+          </a>
+          </div>
+       
+      </footer>
+       <form action="/" method="POST">
+        
+        <div class="newsletter me-15 mt-5 d-flex justify-content-center">
+          <label class="me-15 d-flex justify-content-center" for="email">Subscribite al Newsletter</label>
+          <input class="me-15 d-flex justify-content-center" type="email" name="email" placeholder="hola@servidor.com">
+        </div>
+        </form> 
+      <br>
+     <script src="../libs/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

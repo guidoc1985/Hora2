@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../assets/icons/camiseta.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bcacbfb976.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Portland Ropa</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../assets/logo.jpg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white fuente-principal" aria-current="page" href="../paginas/productos.html">Productos</a>
+              </li>
+              <li class="nav-item carrito">
+                <a class="nav-link active text-white" aria-current="page" href="../paginas/carrito.html">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="../paginas/login.html">
+                  <i class="fa-solid fa-circle-user"></i>
+                </a>
+              </li>
+        
+            </ul>
+             
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 fuente-principal" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-info fuente-principal" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+  </header>
+  
+  <h1 class="fuente-principal detalle-producto">PRODUCTOS</h1>
+ 
+    <main>
+      <div class="container text-center ms-15">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+      <div class="grid-container">
+        <div>
+          <img class="foto-grid " src="../assets/remera-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Remera blanca, S/xxl $8.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/remera-2.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Remera negra ML, S/xxl $11.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/remera-3.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Remera 3/4, S/XXL $9.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/remera-4.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Remera blanca, S/xxl $8.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/buzo-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Buzo capucha, S/XXL $18.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/camisa-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Camisa cuadros, S/XXL, $22.000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/camisa-2.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Camisa Hawai S/XXL $21000.</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/FB_IMG_1688823557613.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Chino Pant, 30/40 $28000</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/remera-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Lorem ipsum dolor sit amet.</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/camisa-2.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Lorem ipsum dolor sit amet.</p>
+          <button class="checkout">Add</button></div>
+        <div>
+          <img class="foto-grid" src="../assets/camisa-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid"">Lorem ipsum dolor sit amet.</p>
+          <button class="checkout">Add</button>
+        </div>
+        <div>
+          <img class="foto-grid" src="../assets/buzo-1.jpg" alt="tercer-mundo">
+          <p class="descripcion-productos-grid">Lorem ipsum dolor sit amet.</p>
+          <button class="checkout add">Add</button>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+     
+
+
+
+      <!-- <img class="foto-producto" src="../assets/portland-portada.jpg" alt="una-foto-de-ropa">
+      <p class="descripcion-productos">Camisa Hawai
+        Talles s al xl
+        $12.000
+      </p>
+      <form action="/talles.php">
+        <label class="fuente-principal" for="cars">Elegí un talle: </label>
+        <select id="talle" name="talle">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        <input class="submit" type="submit" value="ELEGIR">
+      </form>
+    
+      <button class="checkout">Add to Cart</button>
+       -->
+    </main>
+    <br>
+    <br>
+    <footer>
+      <br>
+      <div class="footer-text fuente-principal">
+      <p> Desarrollado por portland 2023</p>
+    </div>
+       <div class="redes">
+        <a  class= "fb" href="https://www.facebook.com/portlandskate">
+         <i class="fa-brands fa-facebook fb"  style="color: aliceblue;"></i>
+        </a>
+        <a class= "ig" href="https://www.instagram.com/portlandskate/">
+       <i class="fa-brands fa-instagram ig" style="color: aliceblue;"></i>
+      </a>
+      </div>
+   
+  </footer>
+   <form action="/" method="POST">
+    
+    <div class="newsletter me-15 mt-5 d-flex justify-content-center">
+      <label class="me-15 d-flex justify-content-center" for="email">Subscribite al Newsletter</label>
+      <input class="me-15 d-flex justify-content-center" type="email" name="email" placeholder="hola@servidor.com">
+    </div>
+    </form> 
+  <br>
+  
+  
+  <script src="../libs/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
