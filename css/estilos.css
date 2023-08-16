@@ -170,11 +170,6 @@ p {
   padding: 0;
 }
 
-/* button{
-    margin-left: 45%;
-    padding: 20px 20px 20px 20px;
-  margin-top: 30px;
-} */
 .subtotal {
   margin-left: 35%;
   margin-top: 20px;
@@ -245,16 +240,7 @@ p {
   align-self: center;
 }
 
-/* input{
-    background-color: #b5abb8;
-    border-radius: 20px;
 
-} */
-/* label{
-    background-color: #55d6d0;
-    border-radius: 20px;
-    width: 200px;
-} */
 .login {
   width: 200px;
   margin-left: 30%;
@@ -474,13 +460,7 @@ p {
     margin: 0px 0px 0px 0px;
     padding: 10px 10px 10px 10px;
   }
-  /* .newsletter{
-      display: flex;
-      justify-content: center;
-      margin-left: 100px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-  } */
+
   .navbar-toggler-icon {
     color: #fff;
     background-color: #55d6d0;
