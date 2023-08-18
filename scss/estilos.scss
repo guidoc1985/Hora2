@@ -126,11 +126,7 @@ h3{
     margin-left: 45%;
     margin-top: 30px;
 }
-/* form{
-    margin-left: 40%;
-    margin-top: 80px;
-    
-} */
+
 
 .foto-producto{
     margin-left: 20%;
@@ -194,7 +190,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 35%;
+    
 }
 
 .sucbscribe-caja{
@@ -202,13 +198,17 @@ justify-content: space-around;
     border: 2px solid $color-negro;
 }
 
-p{
+@mixin margen-izq{
     margin-left: 35%;
+}
+
+ p{
+    @include margen-izq;
 }
 
 .descripcion-productos{
     font-family: $fuente-principal;
-    margin-left: 35%;
+    @include margen-izq();
 }
 
 .foto-producto{
@@ -224,15 +224,9 @@ p{
 
 
 
-/* button{
-    margin-left: 45%;
-    padding: 20px 20px 20px 20px;
-  margin-top: 30px;
-} */
-
 .subtotal{
    
-    margin-left: 35%;
+    @include margen-izq();
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -316,17 +310,7 @@ color: #fff
 
 }
 
-/* input{
-    background-color: #b5abb8;
-    border-radius: 20px;
-    
-} */
 
-/* label{
-    background-color: #55d6d0;
-    border-radius: 20px;
-    width: 200px;
-} */
 
 .login{
     width: 200px;
@@ -570,13 +554,7 @@ footer{
     margin: 0px 0px 0px 0px;
     padding: 10px 10px 10px 10px;
 }
-/* .newsletter{
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-} */
+
 .navbar-toggler-icon{
    
     color: $color-blanco;
@@ -701,7 +679,7 @@ margin-left: 5%;
     
     .login-boton{
         width: 150px;
-        margin-left: 35%;
+        @include margen-izq();
         margin-top: 20px;
     }
     .login-input{
