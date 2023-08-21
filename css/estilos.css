@@ -525,6 +525,9 @@ p {
     background-color: #55d6d0;
     border-radius: 8px;
   }
+  h1 {
+    margin-top: 60px;
+  }
   .grid-container {
     /*Box-modeling*/
     width: 100%;
