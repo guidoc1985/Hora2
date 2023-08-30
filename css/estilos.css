@@ -531,13 +531,21 @@ path {
     margin-left: 5%;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 992px) {
   * {
     padding: 0;
     margin: 0;
   }
   iframe {
     display: none;
+  }
+  .hamburguer-button {
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    width: 10%;
+    margin-left: 80%;
   }
   .navbar-toggler-icon {
     color: #fff;
