@@ -15,7 +15,7 @@ body {
   font-family: "fuente-principal", sans-serif;
 }
 
-.main-header {
+header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -553,7 +553,7 @@ path {
     border-radius: 8px;
   }
   h1 {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .grid-container {
     /*Box-modeling*/
