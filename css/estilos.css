@@ -4,15 +4,28 @@
 }
 
 body {
-  background-color: #b8ece6;
+  background-color: white
 }
 
 @font-face {
   font-family: "fuente-principal";
-  src: url("../assets/Poppins-SemiBold.ttf");
+  src: url("../assets/Poppins-Light.ttf");
 }
 .fuente-principal {
   font-family: "fuente-principal", sans-serif;
+}
+
+.fa-facebook{
+ font-size: xx-large;
+
+}
+
+.fa-instagram{
+  font-size: xx-large;
+}
+
+.titulos{
+  margin-left: 25%;
 }
 
 header {
@@ -83,8 +96,10 @@ h1 {
 }
 
 h2 {
-  margin-left: 40%;
+  font-family: "fuente-principal", sans-serif;
+  margin-left: 5%;
   margin-top: 30px;
+  font-size: 20px;
 }
 
 h3 {
@@ -109,9 +124,26 @@ iframe {
 
 footer {
   background-color: #000;
-  height: 100px;
+  height: 200px;
   padding: 30px;
   padding-top: 5px;
+}
+
+.form-control{
+  width: 50%;
+  padding:30px;
+  
+}
+.form-group{
+  margin-left: 35%;
+}
+
+.form-check-label{
+  margin-left: 42%;
+}
+.btn{
+  margin-left: 35%;
+  margin-bottom: 50px;
 }
 
 .redes {
@@ -218,6 +250,8 @@ p {
   margin-left: 450px;
 }
 
+
+
 .detalle-producto {
   margin-left: 38%;
 }
@@ -264,9 +298,9 @@ p {
   /*Activamos grid*/
   display: grid;
   /*definimos la cantidad de columnas y el ancho de las mismas*/
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 3fr);
   /*definimos la cantidad de filas y el alto de las mismas*/
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 5px;
 }
 
@@ -286,7 +320,20 @@ p {
 }
 
 .foto-grid {
-  width: 300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  margin-left: -5%;
+  
+}
+.presentacion{
+  padding: 50px;
+}
+
+.contacto{
+  padding: 20px;
+  margin-left: 20%;
 }
 
 #whatsapp {
@@ -303,14 +350,75 @@ svg {
 circle {
   fill: #25d366;
 }
+.mapa{
+  margin-left: 30%;
+  padding: 20px;
+}
+.clientes{
+  font-family: "fuente-principal";
+  text-align: center;
+  margin-left: 5%;
+  padding: 70px;
+}
 
 path {
   fill: #fff;
 }
 
+
+.slider2 {
+  width: 20%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider2 ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 10s infinite alternate linear;
+}
+
+.slider2 li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider2 img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+
 /* slider */
 .slider {
-  width: 95%;
+  width: 60%;
   margin: auto;
   overflow: hidden;
 }
@@ -414,16 +522,16 @@ path {
     margin-left: 2px;
   }
   h1 {
-    margin-left: 14%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-size: 20px;
   }
   h2 {
-    margin-left: 30%;
-    margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 15px;
   }
   h3 {
     margin-left: 45%;
@@ -458,7 +566,7 @@ path {
   }
   footer {
     background-color: #000;
-    height: 100px;
+    height: 250px;
     width: 100%;
   }
   .footer-text {
@@ -470,7 +578,7 @@ path {
   .foto-producto {
     width: 230px;
     margin: 0px 0px 0px 0px;
-    padding: 10px 10px 10px 10px;
+    padding: 1px 1px 1px 1px;
   }
   .navbar-toggler-icon {
     color: #fff;
@@ -481,7 +589,7 @@ path {
     /*Box-modeling*/
     width: 100%;
     max-width: 1000px;
-    margin: auto;
+    margin: 10px;
     /*tipografia*/
     font-size: 50px;
     text-align: center;
@@ -491,22 +599,17 @@ path {
     grid-template-columns: repeat(1, 1fr);
     /*definimos la cantidad de filas y el alto de las mismas*/
     grid-template-rows: repeat(4, 1fr);
-    gap: 5px;
+    gap: 2px;
   }
   .grid-container > div {
     /*box-modeling*/
     display: block;
     padding: 0px auto;
   }
-  .descripcion-productos-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-family: "fuente-principal", sans-serif;
-  }
+
   .foto-grid {
-    width: 210px;
+    width: 250px;
+    margin-left: 5%;
   }
   .login {
     display: flex;
@@ -530,6 +633,9 @@ path {
     border-radius: 20px;
     margin-left: 5%;
   }
+.contacto{
+  margin-left: 5%;
+}
 }
 @media screen and (max-width: 992px) {
   * {
