@@ -52,6 +52,7 @@ header {
   margin-left: 20px;
 }
 
+
 .main-nav {
   display: flex;
   justify-content: space-evenly;
@@ -77,9 +78,9 @@ header {
   text-decoration: none;
 }
 
-.nav-lis:hover {
+.nav-link:hover {
   border-bottom: 3px solid #55d6d0;
-  font-size: 20px;
+  
 }
 
 a {
@@ -130,12 +131,19 @@ footer {
 }
 
 .form-control{
-  width: 50%;
-  padding:30px;
+  width: 70%;
+  padding:10px;
+  background-color: #a9a9ff;
   
 }
+
+.mensaje{
+  width:80%
+}
+
 .form-group{
-  margin-left: 35%;
+  margin-left: 25%;
+
 }
 
 .form-check-label{
@@ -518,9 +526,13 @@ path {
     margin-left: 80%;
   }
   .logo {
+   
     width: 120px;
     margin-left: 2px;
+   
   }
+
+
   h1 {
     margin-left: 10%;
     margin-top: 10px;
@@ -575,6 +587,12 @@ path {
     margin-left: 10%;
     margin-top: 0px;
   }
+
+  .form-control{
+    width: 80%;
+    margin-left: -5%;
+    padding:30px;}
+
   .foto-producto {
     width: 230px;
     margin: 0px 0px 0px 0px;
