@@ -574,7 +574,7 @@ path {
   }
   body {
     width: 100%;
-    background-color: #FEF9E7;
+    background-color: #ffffff;
   }
   footer {
     background-color: #000;
@@ -653,6 +653,13 @@ path {
   }
 .contacto{
   margin-left: 5%;
+}
+.titulos{
+  margin-left: 5%;
+}
+.presentacion{
+  margin-left: 5%;
+  text-align: center;
 }
 }
 @media screen and (max-width: 992px) {
